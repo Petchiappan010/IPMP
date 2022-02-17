@@ -36,7 +36,7 @@ void reverse(){
         p=p->next;
         q->next = r;
     }
-    q = first;
+    first = q;
 }
 void display(){
     struct Node *p;
